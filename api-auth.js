@@ -31,3 +31,5 @@ const APIController = (function () {
     getToken: _getToken,
   };
 })();
+
+export default APIController; 

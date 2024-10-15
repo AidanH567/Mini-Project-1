@@ -47,3 +47,4 @@ const FetchController = (function () {
     },
   };
 })();
+export default FetchController; 
