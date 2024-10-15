@@ -1,6 +1,10 @@
 * {
-  background-color: grey;
+  
   font-family: "Poppins", "sans-serif";
+}
+
+body {
+  background-color: grey;
 }
 
 .header {
@@ -15,6 +19,7 @@
 }
 
 .nav-buttons {
+  
   display: flex;
   list-style: none;
   padding: 0;
@@ -30,6 +35,15 @@
 }
 
 .nav-buttons li button {
+  background-color: grey;
   width: 100%;
   padding: 10px;
+}
+.section-list {
+  background-color: red;
+}
+.section-list ol{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
