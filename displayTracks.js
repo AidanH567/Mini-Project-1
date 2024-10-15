@@ -35,3 +35,5 @@ const UIController = (function () {
     },
   };
 })();
+
+export default UIController;
