@@ -40,10 +40,27 @@ body {
   padding: 10px;
 }
 .section-list {
-  background-color: red;
+  background-color: rgb(241, 207, 168);
+  margin: 200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .section-list ol{
   display: flex;
   flex-direction: column;
   gap: 40px;
+  list-style-position: inside;
+}
+.section-list li{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+img {
+  width: 150px;
+  margin: 50px;
+}
+h1 {
+  font-size: 70px;
+  margin: 50px;
 }
