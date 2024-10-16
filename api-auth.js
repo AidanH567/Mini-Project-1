@@ -68,25 +68,36 @@ const _getToken = async () => {
 };
 
 _getToken();
+const changeTitle = (newTitle) => {
+  const headerElement = document.querySelector('.title-header');
+  headerElement.innerText = newTitle;
+};
 const newJazzPlaylist = () =>{
   _getPlaylistTracks(accessToken, '37i9dQZF1DXcWL5K0oNHcG')
+  changeTitle("New Jazz");
 }
 const classicJazz = () =>{ 
   _getPlaylistTracks(accessToken, '37i9dQZF1DXbITWG1ZJKYt')
+  changeTitle("Classic Jazz");
   
 }
 const jazzFusion= () => {
   _getPlaylistTracks(accessToken, '37i9dQZF1DX0aSJooo0zWR')
+  changeTitle("Jazz Fusion");
 }
 const latinJazz= () => {
   _getPlaylistTracks(accessToken, '5BhxShcX9jU7eRPU1fqixf')
+  changeTitle("Latin Jazz");
 }
 const vocalJazz= () => {
   _getPlaylistTracks(accessToken, '37i9dQZF1DX2kt7dB63bU1')
+  changeTitle("Vocal Jazz");
 }
 const jazzFunk= () => {
   _getPlaylistTracks(accessToken, '37i9dQZF1DWUb0uBnlJuTi')
+  changeTitle("Jazz Funk");
 }
+
 
 // document.getElementsByClassName("newJazzButton").addEventListener("click", _getPlaylistTracks(data.access_token, '37i9dQZF1DXcWL5K0oNHcG'));
 //     document.getElementsByClassName("classicJazzButton").addEventListener("click", _getPlaylistTracks(data.access_token, '37i9dQZF1DX0aSJooo0zWR'));
