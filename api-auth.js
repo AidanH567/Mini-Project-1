@@ -71,13 +71,23 @@ _getToken();
 const newJazzPlaylist = () =>{
   _getPlaylistTracks(accessToken, '37i9dQZF1DXcWL5K0oNHcG')
 }
-const classicJazz = () =>{ console.log("test")
+const classicJazz = () =>{ 
   _getPlaylistTracks(accessToken, '37i9dQZF1DXbITWG1ZJKYt')
   
 }
 const jazzFusion= () => {
   _getPlaylistTracks(accessToken, '37i9dQZF1DX0aSJooo0zWR')
 }
+const latinJazz= () => {
+  _getPlaylistTracks(accessToken, '5BhxShcX9jU7eRPU1fqixf')
+}
+const vocalJazz= () => {
+  _getPlaylistTracks(accessToken, '37i9dQZF1DX2kt7dB63bU1')
+}
+const jazzFunk= () => {
+  _getPlaylistTracks(accessToken, '37i9dQZF1DWUb0uBnlJuTi')
+}
+
 // document.getElementsByClassName("newJazzButton").addEventListener("click", _getPlaylistTracks(data.access_token, '37i9dQZF1DXcWL5K0oNHcG'));
 //     document.getElementsByClassName("classicJazzButton").addEventListener("click", _getPlaylistTracks(data.access_token, '37i9dQZF1DX0aSJooo0zWR'));
 //     document.getElementsByClassName("jazzFusionButton").addEventListener("click", _getPlaylistTracks(data.access_token, '37i9dQZF1DXbITWG1ZJKYt'));
