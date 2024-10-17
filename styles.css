@@ -1,109 +1,110 @@
 * {
   
-  font-family: "Poppins", "sans-serif";
-}
-
-body {
-  background-color: #d27285 !important;
-}
-
-.header {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 10%;
-}
-
-.nav-buttons {
+    font-family: "Poppins", "sans-serif";
+  }
   
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.nav-buttons li {
-  flex: 1;
-  text-align: center;
-}
-
-.nav-buttons li button {
-  background-color: #ef4318;
-  width: 100%;
-  padding: 10px;
-}
-.section-list {
-  background-color: rgb(241, 207, 168);
-  margin: 200px;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-.section-list ol{
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  list-style-position: inside;
-}
-.section-list li{
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
-img {
-  width: 150px;
-  margin: 50px;
-}
-h1 {
-  font-size: 70px;
-  margin: 50px;
-}
-.card {
-  background-color: #ffa2b6 !important;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card-body {
-  text-align: center;
-}
-
-.card-title {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.card-artist, .card-album {
-  font-weight: 500;
-  margin-bottom: 0.3rem;
-  color: #555;
-}
-
-.card-image {
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-.card-audio {
-  background-color: #ffa2b6;
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-}
-
+  body {
+    background-color: #d27285 !important;
+  }
+  
+  .header {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  
+  .nav-buttons {
+    
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .nav-buttons li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .nav-buttons li button {
+    background-color: #ef4318;
+    width: 100%;
+    padding: 10px;
+  }
+  .section-list {
+    background-color: rgb(241, 207, 168);
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .section-list ol{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-position: inside;
+  }
+  .section-list li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  img {
+    width: 150px;
+    margin: 50px;
+  }
+  h1 {
+    font-size: 70px;
+    margin: 50px;
+  }
+  .card {
+    background-color: #ffa2b6 !important;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-artist, .card-album {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    color: #555;
+  }
+  
+  .card-image {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .card-audio {
+    background-color: #ffa2b6;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
