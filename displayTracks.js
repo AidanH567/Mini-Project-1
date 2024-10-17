@@ -23,6 +23,11 @@
     template.querySelector(".card-title").innerText = "Title - " + song.name;
     template.querySelector(".card-artist").innerText = "Artist - " + song.artists[0].name;
     template.querySelector(".card-album").innerText = "Album - " + song.album.name;
+    template.querySelector(".card-title").href = song.uri;
+    song.artists[0].external_urls.spotify
+    ? template.querySelector(".card-artist").href = song.artists[0].external_urls.spotify
+    : null;
+    // template.querySelector(".card-artist-link").innerText = "Artist Link - " + song.artists[0].external_urls;
     template.querySelector(".card-image").src = song.album.images[0].url;
     song.preview_url ?
     template.querySelector(".card-audio").src = song.preview_url

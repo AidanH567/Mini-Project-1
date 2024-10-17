@@ -59,6 +59,14 @@ const _getPlaylistTracks = async (token, playlistId) => {
     }
 
     const data = await result.json();
+    let tenItems = [];
+    // for (let j of data.items) {
+    //   // for (let i =0; i<10; i++){
+    //     // tenItems.push(j.track)
+    //     // console.log(j.track)
+    //   // }
+    // }
+   
     // return data.items;
     // console.log(data.items)
     resetTracks();

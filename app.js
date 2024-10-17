@@ -49,13 +49,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // resetTracks();
 
-        tracks.slice(0, 10).forEach((trackItem) => {
-            const track = trackItem.track;
-            const trackName = track.name;
-            const trackImg = track.album.images[0].url;
-            const artistNames = track.artists.map(artist => artist.name).join(', ');
-            createTrack(track.id, trackName, trackImg, artistNames);
-        });
+        // tracks.slice(0, 10).forEach((trackItem) => {
+        //     const track = trackItem.track;
+        //     const trackName = track.name;
+        //     const trackImg = track.album.images[0].url;
+        //     const artistNames = track.artists.map(artist => artist.name).join(', ');
+        //     createTrack(track.id, trackName, trackImg, artistNames);
+        // });
 
     } catch (error) {
         console.error("Error in app.js:", error);
