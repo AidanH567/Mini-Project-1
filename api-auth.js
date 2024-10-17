@@ -23,11 +23,6 @@ const _getToken = async () => {
     accessToken = data.access_token;
     _getPlaylistTracks(data.access_token, '37i9dQZF1DXcWL5K0oNHcG');
     
-//     https://open.spotify.com/playlist/37i9dQZF1DX0aSJooo0zWR?si=36515d789d5d4d1e
-// https://open.spotify.com/playlist/37i9dQZF1DXbITWG1ZJKYt?si=d9830b719aec4a55
-// 
-// 
-//     
     return accessToken;
   } catch (error) {
     console.error("Error fetching access token:", error);
