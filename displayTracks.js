@@ -1,7 +1,7 @@
 
-  const DOMElements = {
-    divSonglist: ".section-list ol", 
-  };
+  // const DOMElements = {
+  //   divSonglist: ".section-list ol", 
+  // };
   const newsContainer = document.getElementById("news-list");
     const createTrack = (song) => {
       const template = document
